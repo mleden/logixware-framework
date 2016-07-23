@@ -1,0 +1,316 @@
+/*
+ * IMPORTANT: Something in here appears to contribute to enabling the Edit Layout functionality.
+ */
+
+/*
+ * DASHBOARD LAYOUTS & COLUMNS
+ */
+
+/*
+ .dashboard {
+ width: 96%;
+ padding-left: 2%;
+ padding-right: 2%;
+ }
+ */
+
+/*
+ * All layouts, all columns
+ */
+.column {
+	float: left;
+	min-height:1500px;
+}
+
+/*
+ * Next rule "sets column marquee" when dragging and dropping widgets between columns.
+ */
+.selectedcolumn {
+  border: 3px dashed #aaaaaa;
+}
+/*
+ * layout-a
+ */
+.layout-a .column.first {
+	width: 100%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.layout-a .column.second, .layout-a .column.third {
+	display: none;
+}
+
+/*
+ * layout-aa
+ */
+.layout-aa .column.first, .layout-aa .column.second {
+	width: 50%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.layout-aa .column.third {
+	display: none;
+}
+
+/*
+ * layout-ba
+ */
+.layout-ba .column.first {
+	width: 33%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.layout-ba .column.second {
+	width: 66%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.layout-ba .column.third {
+	display: none;
+}
+
+/*
+ * layout-ab
+ */
+.layout-ab .column.first {
+	width: 66%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.layout-ab .column.second {
+	width: 33%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.layout-ab .column.third {
+	display: none;
+}
+
+/*
+ * layout-aaa
+ */
+.layout-aaa .column.first, .layout-aaa .column.second, .layout-aaa .column.third {
+	width: 33%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.emptycolumn {
+	font-size: 20px;
+	font-weight: bold;
+	color: #aaaaaa;
+	padding: 5px 5px 5px 5px;
+}
+
+/*
+ * DASHBOARD WIDGETS
+ */
+.widget {
+	margin-bottom: 10px;
+}
+/*
+ * Next rule prevents content spilling out of widget container, yet
+ * still allows the widget menus to open, even when the widget is collapsed
+ * and/or at the foot of a dashboard column.
+ */
+.widgetcontent {
+	overflow: hidden;
+}
+
+/*
+ * Rules to add box shadows to widget containers.
+ */
+/*
+ .column > .ui-widget-content {
+ box-shadow: 5px 5px 25px -2px #333;
+ }
+ .columnmaximize > .ui-widget-content {
+ box-shadow: 5px 5px 25px -2px #333;
+ }
+ */
+
+/*
+ * DASHBOARD EDIT LAYOUT DIALOG
+ */
+#layout-dialog .selected {
+	background: no-repeat scroll 0px -51px transparent;
+}
+#layout-dialog .layoutchoice {
+	width: 82px;
+	height: 51px;
+	float: left;
+	list-style-type: none;
+	margin: 5px;
+	padding: 0;
+}
+#layout-dialog ul {
+	margin: 0;
+	padding: 0;
+}
+#layout-dialog ul li a, #layout-dialog ul li a:link, #layout-dialog ul li a:visited {
+	border: 1px solid #BBBBBB;
+	display: block;
+	float: left;
+	margin: 0 1em 1em 0;
+	outline: medium none;
+	padding: 0.35em;
+	width: auto;
+}
+
+/*
+ * DASHBOARD ADD WIDGET DIALOG
+ */
+.dialog .categories {
+	list-style: none outside none;
+	height: 414px;
+}
+.dialog .categories li.selected button {
+	color: #FFFFFF;
+	font-weight: 800;
+}
+.dialog .categories li button {
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+	color: #666666;
+	font-family: "segoe ui", helvetica, arial, sans-serif;
+	font-size: 0.8em;
+	padding: 0.4em 1.2em;
+	text-align: left;
+	width: 100%;
+}
+ul.categories button {
+	cursor: pointer;
+}
+.widgetitem {
+	border: 2px none white;
+	float: left;
+	font-size: 0.77em;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 20px 0 142px;
+	height: 182px; /* Resize region on Add Widget dialog to allow for longer descriptions. */
+	width: 352px; /* Resize region on Add Widget dialog to allow for longer descriptions. */
+}
+.dialog .categories {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-right: 1px solid #F0F0F0;
+	float: left;
+	height: 100%;
+	list-style: none outside none;
+	margin: 0 1.17em 0 0;
+	padding: 10px 0 0;
+	width: 25%;
+}
+.dialog .categories li.selected {
+	background: none repeat scroll 0 0 #6699CC;
+	color: #FFFFFF;
+}
+.dialog .panel-body {
+	overflow: auto;
+	padding: 10px;
+}
+ol.widgets {
+	float: left;
+	list-style: none outside none;
+	margin: -10px;
+	padding: 0;
+	width: auto;
+}
+.widgetitem .add-button {
+	float: left;
+	margin: 81px 0 0 -131px;
+	width: auto;
+}
+.widgetitem h3 {
+	margin: 11px 0 0;
+	padding: 0;
+}
+.widgetitem img {
+	border: 1px solid #999999;
+	float: left;
+	margin: 10px 0 0 -132px;
+}
+
+/*
+ * ???
+ */
+.ui-icon {
+	cursor: default;
+}
+.ui-icon {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+/*
+ .ui-widget-overlay {
+ opacity: 0.5;
+ }
+ */
+
+/*
+ * I fully qualified the following paths to image files.
+ * It shouldn't really be necessary, but I had trouble with it otherwise.
+ */
+.loading {
+	padding: 50px;
+	text-align: center;
+	background-image: "/logixware-framework/libs/jq-logixware-dashboard/img/loading.gif";
+}
+.hidden {
+	display: none;
+}
+
+.ui-button-text {
+	padding: 0.1em 0.7em !important;
+}
+
+/*
+ * Rule to mimic Bootstrap2's coloring of anchor tags.
+ * Without these, the blue text on the link would show when the widget was rendered "in single view"
+ * from the widgets menu but it would render in "standard gray" and be indistinguishable when the widget
+ * was rendered from with a view.
+ */
+/*
+ .ui-widget-content a {
+ color: #0069d6;
+ }
+ */
+
+/*
+ * This rule is applied to INDEPENDENT architecture widgets to "counteract" the widgetcontent class and eliminate
+ * the border around the iframe wrapper within the widget content region.
+ */
+.widgetcontent-independent {/* padding of the content */
+	padding: 0px 0px;
+}
+
+/*
+ * This rule ensures that when a widget is maximized, it is
+ * properly centered on the dashboard.
+ */
+.dashboard > .columnmaximize {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+#fullscreen_dashboard {
+	/*
+	 position: fixed !important;
+	 position: absolute;
+	 */
+	overflow: auto;
+	min-height: 800px;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+}
+
+.iframewidgetcontent {
+	border: none;
+	height: 800px;
+	width: 100%;
+}

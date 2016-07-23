@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--
+-- MWE: This is the Logixware Dashboard Widget Template.
+-- It should be used as the starting point for creating a new Widget.
+!-->
+<html>
+	<head>
+
+		<!-- Load any resources/assets unique to this widget. -->
+		<!-- End -->
+
+		<!-- Initialize any resources/assets unique to this widget. -->
+		<script type="text/javascript">
+			/*
+			 * Declare standard widget-scoped variables.
+			 */
+			var thisWidgetName = "Static DataTables Example";
+			//
+			/* Begin unique widget variable declarations */
+			// var widgetStringVar = "";
+			// var widgetArrayVar = [];
+			// var widgetObjectVar = {};
+			/* End unique widget variable declarations */
+
+			/*
+			 * Initialize plugins and custom objects implemented by this widget.
+			 */
+			$(document).ready(function() {
+				console.log("document.ready of " + thisWidgetName);
+				$(".box-title:empty").html(thisWidgetName);
+
+				/* Begin unique widget init */
+				$("#static-datatable").dataTable();
+				/* End unique widget init */
+			});
+
+			/* Begin unique widget functions */
+			/* End unique widget function */
+		</script>
+		<!-- End -->
+
+	</head>
+
+	<body>
+
+		<!-- Much of the "widget markup" is maintained in the templates for simplicity. -->
+
+		<div class="box-body">
+			<!-- Begin unique widget markup -->
+			<table id="static-datatable" class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th>Rendering engine</th>
+						<th>Browser</th>
+						<th>Platform(s)</th>
+						<th>Engine version</th>
+						<th>CSS grade</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Trident</td>
+						<td>Internet
+						Explorer 4.0</td>
+						<td>Win 95+</td>
+						<td> 4</td>
+						<td>X</td>
+					</tr>
+					<tr>
+						<td>Trident</td>
+						<td>Internet
+						Explorer 5.0</td>
+						<td>Win 95+</td>
+						<td>5</td>
+						<td>C</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<th>Rendering engine</th>
+						<th>Browser</th>
+						<th>Platform(s)</th>
+						<th>Engine version</th>
+						<th>CSS grade</th>
+					</tr>
+				</tfoot>
+			</table>
+			<!-- End unique widget markup -->
+		</div><!-- /.box-body -->
+		<div class="box-footer clearfix no-border">
+			<!-- Begin unique widget markup -->
+			<!-- End unique widget markup -->
+		</div>
+
+	</body>
+
+</html>

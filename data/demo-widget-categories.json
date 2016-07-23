@@ -1,0 +1,22 @@
+{
+	"categories": {
+		"category": [
+			{
+				"id": 1,
+				"title": "Dependent Widgets",
+				"amount": 8,
+				"url": "/logixware-framework/data/demo-dependent-widgets.json"
+			}, {
+				"id": 2,
+				"title": "External Widgets",
+				"amount": 1,
+				"url": "/logixware-framework/data/demo-external-widgets.json"
+			}, {
+				"id": 3,
+				"title": "Independent Widgets",
+				"amount": 1,
+				"url": "/logixware-framework/data/demo-independent-widgets.json"
+			}
+		]
+	}
+}

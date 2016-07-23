@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<!--
+-- MWE: This is the Independent Widget Template.
+-- It should be used as the starting point for creating a new Widget.
+!-->
+<html>
+	<head>
+
+		<title>Login</title>
+
+		<!--
+		********** Resources for jQuery Core **********
+		-->
+		<script src="/libs/jq-core/jquery-1.10.2.min.js"></script>
+		<!--
+		********** Resources for jQuery UI **********
+		-->
+		<link href="/libs/jq-ui-1.10.3/themes/base/minified/jquery-ui.min.css" rel="stylesheet" type="text/css" media="screen" />
+		<script src="/libs/jq-ui-1.10.3/ui/minified/jquery-ui.min.js"></script>
+
+		<!--
+		Resources for jQuery OpenID Plugin
+		-->
+		<link href="/libs/jq-openid/openid.css" rel="stylesheet" type="text/css" media="screen" />
+		<script src="/libs/jq-openid/jquery.openid.js"></script>
+
+		<!--initialize jQuery widgets on the page or form-->
+		<script type='text/javascript'>
+			$(function() {
+				$("form.openid:eq(0)").openid();
+			});
+		</script>
+
+	</head>
+
+	<body>
+
+		<!-- MWE: Enclose the widget contents in the following "div container" and provide an appropriate ID. -->
+		<div id="login">
+			<!-- ************************** -->
+<!--
+			<form class="openid" method="post" action="/libs/lightopenid/demo-logixware-dashboard-lightopenid.php">
+-->				
+			<form class="openid" method="post" action="/fragments/demo-lightopenid.php">				
+				<div>
+					<ul class="providers">
+						<li class="openid" title="OpenID"><img src="/libs/jq-openid/images/openidW.png" alt="icon" />
+							<span><strong>http://{your-openid-url}</strong></span>
+						</li>
+						<li class="direct" title="Google">
+							<img src="/libs/jq-openid/images/googleW.png" alt="icon" /><span>https://www.google.com/accounts/o8/id</span>
+						</li>
+						<li class="direct" title="Yahoo">
+							<img src="/libs/jq-openid/images/yahooW.png" alt="icon" /><span>https://me.yahoo.com/</span>
+						</li>
+					</ul>
+				</div>
+				<fieldset>
+					<label for="openid_username">Enter your <span>Provider user name</span></label>
+					<div>
+						<span></span>
+						<input type="text" name="openid_username" />
+						<span></span>
+						<input type="submit" value="Login" />
+					</div>
+				</fieldset>
+				<fieldset>
+					<label for="openid_identifier">Enter your <a class="openid_logo" href="http://openid.net">OpenID</a></label>
+					<div>
+						<input type="text" name="openid_identifier" />
+						<input type="submit" value="Login" />
+					</div>
+				</fieldset>
+			</form>
+
+		</div><!-- end login -->
+		<!-- MWE: That's it!  Don't add anything else to this "widget file".-->
+
+	</body>
+
+</html>

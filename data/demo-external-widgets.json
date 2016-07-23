@@ -1,0 +1,19 @@
+{
+	"result": {
+		"layout": "layout1",
+		"data": [
+			{
+				"id": "10",
+				"architecture": "EXTERNAL",
+				"column": "second",
+				"creator": "Logixware",
+				"description": "Demo External: Nike - The Last Game.",
+				"email": "info@logixware.com",
+				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget2.png",
+				"open": true,
+				"title": "Demo External: Nike - The Last Game",
+				"url": "http://www.solidangle.com/news/the-last-game/"
+			}
+		]
+	}
+}

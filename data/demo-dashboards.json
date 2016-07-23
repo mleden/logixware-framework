@@ -1,0 +1,15 @@
+{
+	"views": {
+		"view": [
+			{
+				"id": 1,
+				"simplename": "DEFAULT",
+				"displayname": "Logixware Framework Demo",
+				"owner": "info@logixware.com",
+				"widgetfeedurl": "/logixware-framework/data/demo-layout5-widgets.json",
+				"widgetcategoriesurl": "/logixware-framework/data/demo-widget-categories.json",
+				"url": "/logixware-framework/pages/demo.html"
+			}
+		]
+	}
+}
