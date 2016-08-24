@@ -2,7 +2,7 @@
 	"result": {
 		"layout": "layout5",
 		"data": [{
-				"id": "9",
+				"id": "1",
 				"architecture": "DEPENDENT",
 				"column": "first",
 				"creator": "Logixware",
@@ -13,7 +13,7 @@
 				"title": "Demo Welcome",
 				"url": "../lgxw-widgets/demo-welcome.html"
 			}, {
-				"id": "4",
+				"id": "2",
 				"architecture": "DEPENDENT",
 				"column": "second",
 				"creator": "Logixware",
@@ -24,7 +24,7 @@
 				"title": "Demo Documentation",
 				"url": "../lgxw-widgets/demo-documentation.html"
 			}, {
-				"id": "1",
+				"id": "3",
 				"architecture": "DEPENDENT",
 				"column": "third",
 				"creator": "Logixware",
@@ -56,6 +56,17 @@
 				"open": true,
 				"title": "Bootstrap",
 				"url": "http://getbootstrap.com/"
+			}, {
+				"id": "4",
+				"architecture": "EXTERNAL",
+				"column": "third",
+				"creator": "Logixware",
+				"description": "Demo About.",
+				"email": "info@logixware.com",
+				"image": "../lgxw-libs/jq-logixware-dashboard/img/widget2.png",
+				"open": true,
+				"title": "Demo About",
+				"url": "../version"
 			}
 		]
 	}
