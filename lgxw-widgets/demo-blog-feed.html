@@ -20,13 +20,13 @@
 				 * and CNET Technology News widgets on your Home view.
 				 */
 				var targetSelector;
-				var widgetId = $("#dashboard").find(".ui-widget").has("div.wpc-rssfeed").last().attr("id");
+				var widgetId = $("#dashboard").find(".ui-widget").has("div.lgxw-rssfeed").last().attr("id");
 				// Grab the ID for the last "instance" of this widget
 				if ( typeof widgetId != 'undefined') {
-					targetSelector = ".ui-widget#" + widgetId + " div.wpc-rssfeed";
+					targetSelector = ".ui-widget#" + widgetId + " div.lgxw-rssfeed";
 				} else {
 					// viewing widget from LINK page (i.e., no dashboard)
-					targetSelector = ".wpc-rssfeed";
+					targetSelector = ".lgxw-rssfeed";
 				}
 				$(targetSelector).rssfeed(rssFeedUrl, {
 					limit : 5,
@@ -43,7 +43,7 @@
 	<body>
 		<!-- Much of the "widget markup" is maintained in the templates for simplicity. -->
 		<div class="box-body">
-			<div class="wpc-rssfeed">
+			<div class="lgxw-rssfeed">
 				<!-- populated dynamically by jQuery plugin -->
 			</div>
 		</div><!-- /.box-body -->

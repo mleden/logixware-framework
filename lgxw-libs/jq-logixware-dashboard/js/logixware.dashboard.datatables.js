@@ -114,7 +114,7 @@ function getGroupIconMarkup(icon, group, row, statusJson) {
 	}
 	//
 	if (icon === "ENVIRONMENT-STATUS") {
-		markup = "<img class='wpc-info-icon' src='/reporting/img/" + 
+		markup = "<img class='datatables-info-icon' src='/reporting/img/" + 
 			row.children('td').eq(7).text() +
 			".png" + 
 			"' />" +
