@@ -8,10 +8,10 @@
 				"creator": "Logixware",
 				"description": "Demo Welcome.",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget1.png",
+				"image": "../lgxw-libs/jq-logixware-dashboard/img/widget1.png",
 				"open": true,
 				"title": "Demo Welcome",
-				"url": "/logixware-framework/widgets/demo-welcome.html"
+				"url": "../lgxw-widgets/demo-welcome.html"
 			}, {
 				"id": "4",
 				"architecture": "DEPENDENT",
@@ -19,10 +19,10 @@
 				"creator": "Logixware",
 				"description": "Demo Documentation.",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget1.png",
+				"image": "../lgxw-libs/jq-logixware-dashboard/img/widget1.png",
 				"open": true,
 				"title": "Demo Documentation",
-				"url": "/logixware-framework/widgets/demo-documentation.html"
+				"url": "../lgxw-widgets/demo-documentation.html"
 			}, {
 				"id": "1",
 				"architecture": "DEPENDENT",
@@ -30,10 +30,10 @@
 				"creator": "Logixware",
 				"description": "Demo Blog Feed.",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget1.png",
+				"image": "../lgxw-libs/jq-logixware-dashboard/img/widget1.png",
 				"open": true,
 				"title": "Demo Blog Feed",
-				"url": "/logixware-framework/widgets/demo-blog-feed.html"
+				"url": "../lgxw-widgets/demo-blog-feed.html"
 			}, {
 				"id": "2",
 				"architecture": "DEPENDENT",
@@ -41,10 +41,10 @@
 				"creator": "Logixware",
 				"description": "Demo Complex.",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget1.png",
+				"image": "../lgxw-libs/jq-logixware-dashboard/img/widget1.png",
 				"open": false,
 				"title": "Demo Complex",
-				"url": "/logixware-framework/widgets/demo-complex.html"
+				"url": "../lgxw-widgets/demo-complex.html"
 			}, {
 				"id": "3",
 				"architecture": "DEPENDENT",
@@ -52,10 +52,10 @@
 				"creator": "Logixware",
 				"description": "Demo DataTables.",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget1.png",
+				"image": "../lgxw-libs/jq-logixware-dashboard/img/widget1.png",
 				"open": true,
 				"title": "Demo DataTables",
-				"url": "/logixware-framework/widgets/demo-datatables.html"
+				"url": "../lgxw-widgets/demo-datatables.html"
 			}, {
 				"id": "5",
 				"architecture": "DEPENDENT",
@@ -63,10 +63,10 @@
 				"creator": "Logixware",
 				"description": "Demo JSON DataTables.",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget1.png",
+				"image": "../lgxw-libs/jq-logixware-dashboard/img/widget1.png",
 				"open": true,
 				"title": "Demo JSON DataTables",
-				"url": "/logixware-framework/widgets/demo-json-datatables.html"
+				"url": "../lgxw-widgets/demo-json-datatables.html"
 			}, {
 				"id": "7",
 				"architecture": "DEPENDENT",
@@ -74,10 +74,10 @@
 				"creator": "Logixware",
 				"description": "Demo Simple.",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget1.png",
+				"image": "../lgxw-libs/jq-logixware-dashboard/img/widget1.png",
 				"open": false,
 				"title": "Demo Simple",
-				"url": "/logixware-framework/widgets/demo-simple.html"
+				"url": "../lgxw-widgets/demo-simple.html"
 			}, {
 				"id": "8",
 				"architecture": "DEPENDENT",
@@ -85,10 +85,10 @@
 				"creator": "Logixware",
 				"description": "Demo Tournament Bracket.",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget1.png",
+				"image": "../lgxw-framework/libs/jq-logixware-dashboard/img/widget1.png",
 				"open": true,
 				"title": "Demo Tournament Bracket",
-				"url": "/logixware-framework/widgets/demo-tournament-bracket.html"
+				"url": "../lgxw-widgets/demo-tournament-bracket.html"
 			}
 		]
 	}

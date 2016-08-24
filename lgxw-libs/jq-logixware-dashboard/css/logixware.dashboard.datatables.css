@@ -2,13 +2,13 @@
  * MWE: Custom styles for widgets that use jQuery DataTables plugin & DataTables Row Grouping Extra.
  */
 .expanded-group {
-	background: url("/logixware-framework/img/minus.jpg") no-repeat scroll left center transparent;
+	background: url("../lgxw-img/minus.jpg") no-repeat scroll left center transparent;
 	background-color: #f9f9f9;
 	font-weight: bold;
 	padding-left: 15px !important
 }
 .collapsed-group {
-	background: url("/logixware-framework/img/plus.jpg") no-repeat scroll left center transparent;
+	background: url("../lgxw-img/plus.jpg") no-repeat scroll left center transparent;
 	background-color: #f9f9f9;
 	font-weight: bold;
 	padding-left: 15px !important

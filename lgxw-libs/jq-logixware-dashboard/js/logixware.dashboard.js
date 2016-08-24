@@ -984,30 +984,30 @@
 		layouts : [{
 			title : "Layout1",
 			id : "layout1",
-			image : "/logixware-framework/libs/jq-logixware-dashboard/img/layout1.png",
+			image : "../lgxw-libs/jq-logixware-dashboard/img/layout1.png",
 			classname : "layout-a"
 		}, {
 			title : "Layout2",
 			id : "layout2",
-			image : "/logixware-framework/libs/jq-logixware-dashboard/img/layout2.png",
+			image : "../lgxw-libs/jq-logixware-dashboard/img/layout2.png",
 			classname : "layout-aa"
 		}, {
 			title : "Layout3",
 			id : "layout3",
-			image : "/logixware-framework/libs/jq-logixware-dashboard/img/layout3.png",
+			image : "../lgxw-libs/jq-logixware-dashboard/img/layout3.png",
 			classname : "layout-ba"
 		}, {
 			title : "Layout4",
 			id : "layout4",
-			image : "/logixware-framework/libs/jq-logixware-dashboard/img/layout4.png",
+			image : "../lgxw-libs/jq-logixware-dashboard/img/layout4.png",
 			classname : "layout-ab"
 		}, {
 			title : "Layout5",
 			id : "layout5",
-			image : "/logixware-framework/libs/jq-logixware-dashboard/img/layout5.png",
+			image : "../lgxw-libs/jq-logixware-dashboard/img/layout5.png",
 			classname : "layout-aaa"
 		}],
-		loadingHtml : '<div class="loading"><img alt="Loading, please wait" src="/logixware-framework/libs/jq-logixware-dashboard/img/loading.gif" /><p>Loading...</p></div>',
+		loadingHtml : '<div class="loading"><img alt="Loading, please wait" src="../lgxw-libs/jq-logixware-dashboard/img/loading.gif" /><p>Loading...</p></div>',
 		//    menuClass: "controls",
 		menuClass : "dropdown-menu",
 		opacity : "0.2",

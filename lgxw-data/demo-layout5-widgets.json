@@ -8,10 +8,10 @@
 				"creator": "Logixware",
 				"description": "Demo Welcome.",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget2.png",
+				"image": "../lgxw-libs/jq-logixware-dashboard/img/widget2.png",
 				"open": true,
 				"title": "Demo Welcome",
-				"url": "/logixware-framework/widgets/demo-welcome.html"
+				"url": "../lgxw-widgets/demo-welcome.html"
 			}, {
 				"id": "4",
 				"architecture": "DEPENDENT",
@@ -19,10 +19,10 @@
 				"creator": "Logixware",
 				"description": "Demo Documentation.",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget2.png",
+				"image": "../lgxw-libs/jq-logixware-dashboard/img/widget2.png",
 				"open": true,
 				"title": "Demo Documentation",
-				"url": "/logixware-framework/widgets/demo-documentation.html"
+				"url": "../lgxw-widgets/demo-documentation.html"
 			}, {
 				"id": "1",
 				"architecture": "DEPENDENT",
@@ -30,10 +30,10 @@
 				"creator": "Logixware",
 				"description": "Demo Blog Feed.",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget2.png",
+				"image": "../lgxw-libs/jq-logixware-dashboard/img/widget2.png",
 				"open": true,
 				"title": "Demo Blog Feed",
-				"url": "/logixware-framework/widgets/demo-blog-feed.html"
+				"url": "../lgxw-widgets/demo-blog-feed.html"
 			}, {
 				"id": "101",
 				"architecture": "EXTERNAL",
@@ -41,7 +41,7 @@
 				"creator": "Logixware",
 				"description": "jQuery: write less, do more.",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget2.png",
+				"image": "../lgxw-libs/jq-logixware-dashboard/img/widget2.png",
 				"open": true,
 				"title": "jQuery",
 				"url": "http://www.jquery.com/"
@@ -52,7 +52,7 @@
 				"creator": "Logixware",
 				"description": "Bootstrap: responsive, mobile-first framework",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/img/widget2.png",
+				"image": "../lgxw-libs/jq-logixware-dashboard/img/widget2.png",
 				"open": true,
 				"title": "Bootstrap",
 				"url": "http://getbootstrap.com/"

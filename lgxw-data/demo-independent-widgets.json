@@ -9,10 +9,10 @@
 				"creator": "Logixware",
 				"description": "Detailed documentation about this plugin.",
 				"email": "info@logixware.com",
-				"image": "/logixware-framework/libs/jq-logixware-dashboard/dashboard-img/widget3.png",
+				"image": "../lgxw-libs/jq-logixware-dashboard/dashboard-img/widget3.png",
 				"open": true,
 				"title": "Documentation",
-				"url": "/logixware-framework/widgets/static-simple.html"
+				"url": "../lgxw-widgets/static-simple.html"
 			}
 		]
 	}

@@ -19,9 +19,9 @@ var pageFootbarUrl = null;
 // url to content markup fragment
 var pageContentUrl = null;
 // url to jquery templates that provide "core dashboard functionality" (e.g., widget, etc)
-var pageCoreDashboardTemplatesUrl = "/logixware-framework/libs/jq-logixware-dashboard/fragments/demo-core-templates.html";
+var pageCoreDashboardTemplatesUrl = "../lgxw-libs/jq-logixware-dashboard/fragments/demo-core-templates.html";
 // url to jquery templates that provide "supplementary dashboard functionality based upon a particular UI framework" (e.g., dashboard, dialogs, etc)
-var pageComponentTemplatesUrl = "/logixware-framework/libs/jq-logixware-dashboard/fragments/demo-bootstrap3-templates.html";
+var pageComponentTemplatesUrl = "../lgxw-libs/jq-logixware-dashboard/fragments/demo-bootstrap3-templates.html";
 // dashboard layout class to use
 var pageLayoutClass = "layout";
 var queryStringParams = [], hash;

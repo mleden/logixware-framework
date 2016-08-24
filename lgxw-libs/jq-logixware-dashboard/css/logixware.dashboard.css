@@ -257,7 +257,7 @@ ol.widgets {
 .loading {
 	padding: 50px;
 	text-align: center;
-	background-image: "/logixware-framework/libs/jq-logixware-dashboard/img/loading.gif";
+	background-image: "../lgxw-libs/jq-logixware-dashboard/img/loading.gif";
 }
 .hidden {
 	display: none;
